@@ -6,7 +6,7 @@ This module is intended to implement a timer on a website page. The module is im
 Usage:
 
 1. Set up your HTML markup:
-   ```
+```
    <div class="your class timer">
       <div>
           <span class="your class days">00</span>
@@ -21,7 +21,7 @@ Usage:
           <span class="your class seconds">00</span>
       </div>
   </div>
-  ```
+```
 
 2. Сopy the code from the timer.js file to your separate timer file
 
@@ -29,9 +29,9 @@ Usage:
 
 4. In the main file call the function timer({}) inside which, as a parameter, pass an object with the following properties:
 ```
-timer({
+	timer({
 		timer: 'your selector timer',
-	 	time: 'your timer end date', (for example: '2024-05-20')
+		time: 'your timer end date', (for example: '2024-05-20')
 		days: 'your selector days',
 		hours: 'your selector hours',
 		minutes: 'your selector minutes',
